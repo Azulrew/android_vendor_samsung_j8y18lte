@@ -1304,7 +1304,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j8y18lte/proprietary/vendor/lib/vendor.samsung.hardware.security.securestorage@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.security.securestorage@3.0.so \
     vendor/samsung/j8y18lte/proprietary/vendor/lib/vendor.samsung.hardware.vibrator@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.vibrator@2.0.so \
     vendor/samsung/j8y18lte/proprietary/vendor/lib/vendor.trustonic.tee@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.trustonic.tee@1.0.so \
-    vendor/samsung/j8y18lte/proprietary/vendor/lib/vendor.trustonic.teeregistry@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.trustonic.teeregistry@1.0.so
+    vendor/samsung/j8y18lte/proprietary/vendor/lib/vendor.trustonic.teeregistry@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.trustonic.teeregistry@1.0.so \
+    vendor/samsung/j8y18lte/proprietary/vendor/lib/libc29.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc29.so \
+    vendor/samsung/j8y18lte/proprietary/vendor/lib/libutv29.so:$(TARGET_COPY_OUT_VENDOR)/lib/libutv29.so
 
 PRODUCT_PACKAGES += \
     DynamicDDSService \
